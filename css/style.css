@@ -3,11 +3,13 @@
 img[alt="Logo"]{
     width:5rem;
 }
+
 /* body  */
 body{
     text-align: center;
 }
-    /* education  */
+
+/* education  */
     :root{
         --primary: rgb(0, 0, 0);
         --secondary: white;
@@ -16,7 +18,8 @@ body{
         --green: green;
         --mainBox-shadow: -8px -3px 23px 5px rgba(105,96,96,0.75);
     }
-    /* Education */
+
+/* Education */
     .education {
         width: 40em;
         margin: 5px auto;
@@ -39,11 +42,10 @@ body{
         margin-left: auto;
         position: relative;
     }
-    
-    
-    /* Media query */
+     
+/* Media query */
     @media screen and (width < 900px) {
-        /* Education */
+/* Education */
         .education {
             width: 100%;
             display: flex;
@@ -71,3 +73,4 @@ body{
             content: none;
         }
     }
+    
